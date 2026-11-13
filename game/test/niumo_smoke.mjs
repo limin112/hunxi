@@ -211,7 +211,7 @@ const SCEN = {
     await G('(G.bull.hp = G.bull.maxHp * 0.505, true)');
     await G('G.hitBull(G.bull.maxHp * 0.02, "kneeL")');
     await waitState('transition', 8000);
-    for (let i = 0; i < 11; i++) {
+    for (let i = 0; i < 13; i++) {
       await page.waitForFunction(t => { const G = window.__niumo; return G.state !== 'transition' || (G.cut && G.cut.t >= t); }, { timeout: 30000, polling: 8 }, 0.6 + i);
       if (await G('G.state') !== 'transition') break;
       await frozenShot('t' + (0.6 + i).toFixed(1));

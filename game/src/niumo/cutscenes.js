@@ -590,8 +590,8 @@ export class CollapseScene extends Scene {
         to: { pos: () => foot().addScaledVector(F, 34).addScaledVector(R, -10).setY(3.5), look: () => climb(1), fov: 54 } },
       // 5 the monkey, on rock again, low behind him: the standing giant towers into the smoke (「倒下去，才响。」)
       { t0: 10.6, t1: 15.5, e: 'out', ap: 0.0012, blur: 0.009, focus: () => this.camera.position.distanceTo(this.mpos) + 0.4,
-        from: { pos: () => this.reactCam(0), look: () => this.reactLook(0), fov: 50 },
-        to: { pos: () => this.reactCam(1), look: () => this.reactLook(1), fov: 44 } },
+        from: { pos: () => this.reactCam(0), look: () => this.reactLook(0), fov: 58 },
+        to: { pos: () => this.reactCam(1), look: () => this.reactLook(1), fov: 52 } },
     ]);
     this.actor.playBase(baseClip(this.actor, 'idle'), { fade: 0.3 });
     // 牛魔王 as he tears himself out of the rock; the monkey answers when he stands
@@ -603,8 +603,8 @@ export class CollapseScene extends Scene {
     return this.mpos.clone().addScaledVector(d, -THREE.MathUtils.lerp(3.0, 2.3, f)).addScaledVector(side, 0.9).setY(this.mpos.y + THREE.MathUtils.lerp(0.45, 0.6, f));
   }
   reactLook(f) {
-    const hd = this.bf.head();
-    return this.mpos.clone().setY(this.mpos.y + 1.3).lerp(hd, THREE.MathUtils.lerp(0.36, 0.44, f));
+    // a fixed tilt up past him (the giant is close and enormous: aiming at his head would lose the monkey)
+    return this.mpos.clone().addScaledVector(this.toBull(), 8).setY(this.mpos.y + 1.3 + THREE.MathUtils.lerp(3.6, 4.4, f));
   }
   /** Before the last shot: the floor has fallen, put the monkey on rock (facing the giant) so the camera finds him there. */
   rehome() {

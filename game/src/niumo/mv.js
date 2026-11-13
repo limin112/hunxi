@@ -364,6 +364,11 @@ export class OpeningMV {
       b.spoken = true;
       this.voice?.play(b.line);
       b.heard = this.voice?.cur;
+      // his voice comes out of a mountain: the ground hums, ash shakes off his brow
+      if (this.voice?.lines[b.line]?.speaker === 'bull') {
+        this.track.jolt(0.18); this.arena.shake?.(0.12);
+        this.fx.motes?.(this.bf.head(), 3, 14, new THREE.Color(0.55, 0.22, 0.08));
+      }
     }
     const talking = b.heard && !b.heard.done;
     if (this.bt >= b.dur && !talking) {

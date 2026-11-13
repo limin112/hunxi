@@ -95,7 +95,8 @@ export class AutoCam { /* 只用键盘：自动框住猴子和牛魔王正在出
 
 ## 5. 主程序 `niumo.html` + `src/niumo/main.js`
 
-- 流程：splash（点击开始）→ mv（开场 MV）→ title → approach（走进火山口）→ wake（他睁眼的短过场）→ fight → transition（山崩过场）→ fight 二阶段 → ending（下雨）；死亡 → 重来。
+- 流程：splash（点击开始）→ 一整段开场过场（MV、走到膝下、标题、睁眼、六句对白、长啸，镜头直接落到战斗机位）→ fight → transition（山崩过场 + 两句对白）→ fight 二阶段 → ending（下雨，「大哥……下雨了。」）；死亡 → 直接重来，不再播过场。
+- 配音：`tools/gen_voice.sh` 用 macOS `say` 生成到 `assets/audio/voice/`（含 `voice.json` 时长清单）。
 - 后处理与圣堂一致：bloom、调色（读 `arena.gradeHints`）、ACES、FXAA；过场开景深。
 - 调试：`window.__niumo`，参数 `?skipmv`、`?skipintro`、`?god`、`?debug`、`?autostart`。
 - 模型缺失时自动用占位，不能报错：`assets/models/niumo_bull.glb` 缺 → 用 `boss_p2.glb` 压暗、放大到约 40 米；`niumo_monkey.glb` 缺 → 用 `heroine.glb`（1.5 米）；`niumo_staff.glb` 缺 → 程序生成的铁棒。

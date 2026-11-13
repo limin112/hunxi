@@ -434,7 +434,7 @@ async function boot() {
     setState('fight');
     G.cut = null; G.cutKind = null; G.mv = null; G.wakeSeen = true;
     bull.dormant = false;
-    if (bull.state === 'dormant') bull.wake?.();        // the cinematic's roar woke him already
+    if (!fromCine || bull.state === 'dormant') bull.wake?.();     // (the cinematic's roar woke him already)
     G.setEyes(1);
     ui.showHUD(true); ui.showBoss(true); ui.letterbox(false); ui.setHint('');
     const p2 = bull.phase === 2, want = p2 ? 'niumo_phase2' : 'niumo_phase1';
