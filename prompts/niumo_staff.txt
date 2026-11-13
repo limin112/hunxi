@@ -1,0 +1,8 @@
+Use case: prop concept for 3D modeling (image-to-3D input)
+Asset type: weapon prop, single view
+Primary request: a long dark iron fighting staff from Chinese mythology, shown horizontally across the whole frame
+Subject: a straight round shaft of dark forged iron with a subtle hammered texture, a broad ornate gold band at each end engraved with cloud and wave patterns, plain otherwise; no blades, no ornaments hanging from it.
+Scene/backdrop: plain neutral light grey background.
+Lighting/mood: even studio lighting.
+Composition/framing: landscape orientation; the staff horizontal and centered, filling the width.
+Constraints: no text, no watermark.

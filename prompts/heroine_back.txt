@@ -1,0 +1,9 @@
+Use case: identity-preserve
+Asset type: back-view reference image for multiview image-to-3D generation (Tripo3D) - souls-like player character (female warrior)
+Input images: Image 1 = the front view of this exact character (keep the design, materials, wear and proportions identical)
+Primary request: the same character seen from directly behind, in the same A-pose, at the same scale and framing, with the same lighting and background
+Subject: the back of the dark wool hood (the iron mask is hidden from this angle); the thick braid visible only where it passes over the right shoulder; the back of the mail shirt and gambeson; the back panel of the tabard with the seven-sword emblem, more faded; the wide belt and pouch seen from behind; the left leather pauldron from behind; the backs of the gloves; the backs of the greaves; the heels of the boots.
+Composition/framing: exact back view (camera directly behind, 180 degrees from Image 1), entire figure visible from head to feet with margin, centered, no perspective distortion. Portrait image, same aspect ratio as Image 1.
+Lighting/mood: flat, even, diffuse studio lighting; no cast shadows, no rim light.
+Scene/backdrop: plain uniform light grey background.
+Constraints: single character only; no weapons, no shield, no cape, no props, no floor or ground shadow, no text, no watermark.

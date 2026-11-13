@@ -1,0 +1,9 @@
+Use case: identity-preserve
+Asset type: back-view reference image for multiview image-to-3D generation (Tripo3D) - game boss
+Input images: Image 1 = the front view of this exact character (reference only; keep the design identical)
+Primary request: the same character seen from directly behind, in the same A-pose, at the same scale and framing, with the same lighting and background
+Subject: keep the hood, the robe panels, the gold breastplate and pauldron shapes, the gauntlets, the greaves and all proportions identical to Image 1. Only the back of the hood is visible (the metal mask is hidden from this angle). On her upper back, seven narrow vertical slits in the robe are arranged in a fan shape, each slit edged with gold: these are the sockets where seven swords will be inserted later. Do not draw the swords.
+Composition/framing: exact back view (camera directly behind, 180 degrees from Image 1), entire figure visible from head to feet with margin on all sides, centered, no cropping, no perspective distortion. Portrait image, same aspect ratio as Image 1.
+Lighting/mood: flat, even, diffuse studio lighting; no cast shadows, no rim light, no glow.
+Scene/backdrop: plain uniform light grey background.
+Constraints: single character only; no swords, no halo, no wings, no props, no floor or ground shadow, no text, no watermark.

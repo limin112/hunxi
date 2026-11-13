@@ -1,0 +1,8 @@
+Use case: character concept sheet for 3D modeling (image-to-3D input)
+Asset type: full-body character, single front view
+Primary request: an original bull demon king from Chinese mythology, a towering muscular giant warrior with a bull's head, standing in a relaxed A-pose (arms slightly away from the body, legs apart), facing the viewer, full body from head to feet visible
+Subject: his head is covered by an ancient Chinese bronze ritual mask shaped like a bull (Shang-dynasty bronze / Sanxingdui style: protruding cylindrical eyes, wide flat face, large curling horns, green-gold patina with engraved taotie patterns); heavy ancient bronze lamellar armor on shoulders, chest and forearms with molten lava glowing in its cracks; crusts of black basalt rock and ash fused onto his shoulders and back; a short layered war skirt of bronze plates and dark cloth that stops above the knees (no long robe), bare muscular legs with bronze greaves, cloven-hoof-like feet; dark red-brown skin.
+Scene/backdrop: plain neutral light grey background, no environment.
+Lighting/mood: even, soft studio lighting for clear form, slight rim light.
+Composition/framing: portrait orientation; whole body centered; no weapon in his hands; symmetrical pose.
+Constraints: original design, not based on any existing video game character; no text, no watermark, no props on the ground.

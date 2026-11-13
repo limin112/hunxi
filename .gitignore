@@ -1,0 +1,15 @@
+# 依赖（npm install 重新安装）
+node_modules/
+
+# 测试输出与音频预览（脚本可重新生成）
+game/test/out/
+game/test/audio_preview/
+
+# Tripo 原始下载与绑骨中间件（最终模型在 game/assets/models/）
+out/tripo/
+
+# 系统与编辑器
+.DS_Store
+*.log
+.env
+.env.*

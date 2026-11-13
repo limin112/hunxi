@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: seamless tileable PBR base-color texture for a game ground
+Primary request: top-down orthographic photo-texture of volcanic ash ground, designed to tile seamlessly on all four edges
+Subject: fine soft grey volcanic ash covering the ground, with small scattered black cinders and little pebbles of dark scoria, faint shallow wind ripples, a few slightly darker patches; no glowing embers, no plants, no footprints.
+Style/medium: photoreal material scan.
+Lighting/mood: perfectly flat, even, shadowless lighting (albedo only), no highlights, no vignette.
+Composition/framing: straight top-down, no perspective, the pattern fills the whole square image and continues across every edge so the texture tiles without visible seams; even detail density, no single dominant feature.
+Color palette: ash grey, warm dark grey, black cinders.
+Constraints: square image; no objects, no text, no watermark.

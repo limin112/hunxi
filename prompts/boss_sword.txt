@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: weapon reference image for image-to-3D generation (Tripo3D) - the boss's sword (seven identical copies are embedded in her back; she draws one as her weapon)
+Primary request: a single ornate holy longsword, shown whole, perfectly vertical with the point down, seen straight from the front (the flat of the blade facing the camera)
+Subject: a long, slender double-edged blade of pale, slightly dulled silver steel with a narrow gold-inlaid fuller; a cross-shaped guard with gently down-swept quillons in tarnished gold; a grip wrapped in aged ivory cord; the pommel is a small gold disc engraved with a serene closed-eye face from which a single gold tear runs down. Aged by centuries: fine scratches along the blade, a few hardened drops of white candle wax on the guard. The blade is about four times the length of the hilt.
+Composition/framing: orthographic-style front view, the entire sword visible from pommel to tip with margin, centered, no perspective distortion, no tilt. Portrait image.
+Lighting/mood: flat, even, diffuse studio lighting; no cast shadows, no strong reflections.
+Color palette: dull silver, tarnished gold, aged ivory.
+Scene/backdrop: plain uniform light grey background.
+Constraints: single object only; no hands, no scabbard, no stand, no text, no watermark.

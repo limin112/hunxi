@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: character reference image for image-to-3D generation (Tripo3D) - player character, front view
+Primary request: full-body front view of a battle-worn medieval warrior standing in a clean A-pose
+Subject: a human knight of average build (about 7.5 heads tall). The face is completely covered by a dented, blackened iron mask with narrow eye slits and small breathing holes, riveted at the edges, worn under a mail coif and a dark wool hood: no skin and no hair visible anywhere. Padded gambeson under a mail shirt, leather belts and straps, a dark faded tabard bearing a worn emblem of seven swords arranged in a fan, worn leather gloves, mail leggings and scuffed leather boots. Practical and muddy: dark browns, greys and rust.
+Pose: symmetric A-pose, arms straight and angled about 40 degrees away from the body, hands open, legs straight and slightly apart, feet flat, head facing straight ahead. The tabard hangs straight down.
+Composition/framing: orthographic-style front view, entire figure visible from head to feet with margin on all sides, centered, no cropping, camera at chest height, no perspective distortion. Portrait image.
+Lighting/mood: flat, even, diffuse studio lighting; no cast shadows, no rim light, no strong specular highlights.
+Scene/backdrop: plain uniform light grey background.
+Constraints: single character only; no weapons, no shield, no cape, no props, no floor or ground shadow, no text, no watermark.

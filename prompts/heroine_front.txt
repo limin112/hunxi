@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: character reference image for image-to-3D generation (Tripo3D) - souls-like player character (female warrior), front view
+Primary request: full-body front view of a battle-worn medieval female warrior standing in a clean A-pose
+Subject: a lean, athletic woman of average height (about 7.5 heads tall) with a clearly feminine build: narrower shoulders, a defined waist, long legs. Her face is completely covered by a fitted mask of dark, dented iron forged as a stern woman's face with narrow eye slits, riveted at the temples; a dark wool hood frames the mask, and a single thick dark-brown braid falls from under the hood over her right shoulder onto the chest. Fitted padded gambeson under a mail shirt; a dark faded tabard bearing a worn emblem of seven swords arranged in a fan; a wide leather belt with a small pouch cinching the waist; one asymmetric leather pauldron on the left shoulder; worn leather gloves with small iron knuckle plates; mail leggings under fitted leather greaves; scuffed leather boots. Practical and muddy, like an old knight of a fallen order: dark browns, iron grey, rust.
+Pose: symmetric A-pose, arms straight and angled about 40 degrees away from the body, hands open, legs straight and slightly apart, feet flat, head facing straight ahead. The tabard hangs straight down.
+Composition/framing: orthographic-style front view, entire figure visible from head to feet with margin on all sides, centered, no cropping, camera at chest height, no perspective distortion. Portrait image.
+Lighting/mood: flat, even, diffuse studio lighting; no cast shadows, no rim light, no strong specular highlights.
+Scene/backdrop: plain uniform light grey background.
+Constraints: single character only; no exposed skin; no weapons, no shield, no cape, no props, no floor or ground shadow, no text, no watermark.

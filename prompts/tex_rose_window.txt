@@ -1,0 +1,7 @@
+Use case: stylized-concept
+Asset type: emissive texture for a game environment (a stained-glass rose window seen from inside a cathedral, mapped onto a flat disc)
+Primary request: a perfectly front-facing circular gothic rose window of stained glass, centered and filling the square image edge to edge, on a pure black background
+Subject: twelve radiating petal-shaped lancets around a central medallion. The central medallion depicts a kneeling hooded woman in white with seven swords fanned behind her back like a halo, her face a serene closed-eye mask. The petals show falling golden tears, candles and swords. Black lead lines and stone tracery separate the glass.
+Style/medium: luminous stained glass, glowing as if strongly backlit by a pale sun; flat graphic design, perfectly symmetrical, no perspective, no surrounding wall.
+Color palette: cold white and pale gold glass dominating, deep blue in the outer ring, a few small blood-red accents.
+Constraints: square image; the window circle touches the image edges; outside the circle pure black; no text, no watermark.

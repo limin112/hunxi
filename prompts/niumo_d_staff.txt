@@ -1,0 +1,9 @@
+Use case: prop concept for 3D modeling (image-to-3D input)
+Asset type: weapon prop, single view
+Primary request: the final weathered version of the iron fighting staff from Image 1, shown horizontally across the whole frame
+Subject: keep Image 1's exact shape and proportions: a straight round shaft of dark forged iron, now near-black, with a hammered texture, scratches, small dents and faint rust; a broad gold band at each end engraved with cloud and wave patterns, the gold worn and dulled to an old brass tone, slightly polished only on the raised edges, with grey dust and dark grime packed into the engravings; no blades, no ornaments hanging from it.
+Scene/backdrop: plain neutral light grey background.
+Lighting/mood: even studio lighting.
+Color palette: near-black iron, dull old gold, ash-grey dust.
+Composition/framing: landscape orientation; the staff horizontal and centered, filling the width.
+Constraints: no shiny new gold; no text, no watermark.

@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: weapon reference image for image-to-3D generation (Tripo3D) - the player's sword in a souls-like game
+Primary request: a single battered medieval hand-and-a-half longsword, shown whole, perfectly vertical with the point down, seen straight from the front (the flat of the blade facing the camera)
+Subject: a dark, pitted iron blade with a nicked edge, rust spots and a shallow fuller; a simple straight cross-guard; a grip wrapped in worn, dark brown leather; a wheel pommel with a faint, worn engraving of seven swords in a fan. Practical and heavily used. The blade is about three times the length of the hilt.
+Composition/framing: orthographic-style front view, the entire sword visible from pommel to tip with margin, centered, no perspective distortion, no tilt. Portrait image.
+Lighting/mood: flat, even, diffuse studio lighting; no cast shadows, no strong reflections.
+Color palette: iron grey, rust, dark brown leather.
+Scene/backdrop: plain uniform light grey background.
+Constraints: single object only; no hands, no scabbard, no stand, no text, no watermark.

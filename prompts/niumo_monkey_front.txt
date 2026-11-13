@@ -1,0 +1,8 @@
+Use case: character concept sheet for 3D modeling (image-to-3D input)
+Asset type: full-body character, single front view
+Primary request: an original monkey warrior from Chinese mythology, lean, wiry and agile, standing in a relaxed A-pose (arms slightly away from the body, legs apart), facing the viewer, full body from head to feet visible
+Subject: golden-brown fur and a long tail; his whole face is covered by a gilded metal mask forged in the shape of the Peking-opera Monkey King face design (a red and gold heart-shaped pattern around the eyes, raised engraved lines, a narrow gold brow), the pattern is hammered and engraved metal, not paint; he wears a weathered dark crimson and black wandering-ascetic outfit: a short wrapped tunic tied with a rope belt, a string of large prayer beads across the chest, bronze bracers and bronze shin guards, cloth-wrapped feet; faint scars on his arms. No headband, no cape, no plate armor.
+Scene/backdrop: plain neutral light grey background, no environment.
+Lighting/mood: even, soft studio lighting for clear form.
+Composition/framing: portrait orientation; whole body centered; empty hands, no weapon; symmetrical pose.
+Constraints: original design, clearly different from the protagonist of Black Myth: Wukong and from any existing video game character; no text, no watermark.

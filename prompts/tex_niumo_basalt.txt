@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: seamless tileable PBR base-color texture for game rocks, cliffs and pillars
+Primary request: top-down orthographic photo-texture of cooled volcanic basalt rock, designed to tile seamlessly on all four edges
+Subject: dark charcoal-grey basalt with a rough, pitted surface, small gas-bubble holes, fractured faces, fine cracks and a few larger fissures, faint rusty brown iron staining and a light dusting of grey ash in the low spots; no glowing parts, no plants.
+Style/medium: photoreal material scan.
+Lighting/mood: perfectly flat, even, shadowless lighting (albedo only), no highlights, no vignette.
+Composition/framing: straight top-down, no perspective, the pattern fills the whole square image and continues across every edge so the texture tiles without visible seams; even detail density, no single dominant feature.
+Color palette: charcoal black, dark grey, hints of scorched brown and ash grey.
+Constraints: square image; no objects, no text, no watermark.

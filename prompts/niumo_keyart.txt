@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: key art / mood target for a dark mythic boss arena (Chinese mythology, original design)
+Primary request: cinematic wide shot of a colossal bull-headed demon king sitting cross-legged at the far end of a volcanic caldera at night, so huge that he has become part of the mountain
+Subject: the seated giant is about fifteen times the height of a person; his shoulders, knees and back are crusted with black basalt, ash and dead scorched trees, as if the mountain grew over him while he sat for a thousand years; molten lava glows through cracks in his ancient bronze armor; his face is hidden behind an enormous ancient Chinese bronze ritual mask shaped like a bull (Shang-dynasty bronze / Sanxingdui style: protruding cylindrical eyes, wide flat face, curling horns, green-gold patina); a gigantic black iron staff lies across his knees. In the lower foreground, a tiny masked female warrior (Image 1 is her design reference: dark hood, mail, iron mask, longsword) stands on a basalt ledge, seen from behind, facing him.
+Scene/backdrop: rivers of lava winding through black rock, falling ash and embers, heat haze, jagged red-black cliffs, a dark red sky with smoke.
+Lighting/mood: lava underlight and ember glow, rim light on the bronze mask, deep shadows; oppressive, ancient, majestic.
+Color palette: black, deep red, molten orange, with green-gold bronze accents.
+Composition/framing: 16:9 landscape; the seated giant fills the upper two thirds of the frame; the warrior small in the lower foreground for scale.
+Constraints: original design, not based on any existing video game character; no text, no watermark, no UI.

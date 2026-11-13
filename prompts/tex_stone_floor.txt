@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: seamless tileable PBR base-color texture for a game floor
+Primary request: top-down orthographic photo-texture of a worn gothic cathedral floor, designed to tile seamlessly on all four edges
+Subject: large rectangular pale grey limestone slabs in a running-bond pattern, some cracked and chipped, thin dark grout lines, faint water stains and a few old drops of white candle wax.
+Style/medium: photoreal material scan.
+Lighting/mood: perfectly flat, even, shadowless lighting (albedo only), no highlights, no vignette.
+Composition/framing: straight top-down, no perspective, the pattern fills the whole square image and continues across every edge so the texture tiles without visible seams.
+Color palette: pale cool grey limestone, dark grey grout.
+Constraints: square image; no objects, no text, no watermark.

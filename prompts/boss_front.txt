@@ -1,0 +1,10 @@
+Use case: stylized-concept
+Asset type: character reference image for image-to-3D generation (Tripo3D) - game boss, front view
+Primary request: full-body front view of a towering holy maiden boss for a dark fantasy action game, standing in a clean A-pose
+Subject: an unnaturally tall, slender saint with elongated limbs (about 9 heads tall). Her face is completely covered by a rigid metal mask of polished silver-white metal, sculpted as a serene woman's face with closed eyes; thin lines of inlaid gold run down from the closed eyes like tears. A close-fitting white hood covers her head and neck: no skin and no hair visible anywhere. Gold filigree breastplate and pauldrons over white robes. The robes are split into long front and back panels so both legs, in fitted white-and-gold greaves, are clearly visible between the panels. Fitted sleeves and white metal gauntlets, so the arms stay separate from the body.
+Pose: symmetric A-pose, arms straight and angled about 40 degrees away from the body, hands open, legs straight and slightly apart, feet flat, head facing straight ahead.
+Composition/framing: orthographic-style front view, entire figure visible from head to feet with margin on all sides, centered, no cropping, camera at chest height, no perspective distortion. Portrait image.
+Lighting/mood: flat, even, diffuse studio lighting; no cast shadows, no rim light, no glow, no strong specular highlights on the metal.
+Color palette: white, ivory, pale gold, polished silver.
+Scene/backdrop: plain uniform light grey background.
+Constraints: single character only; no weapons, no swords, no halo, no wings, no props, no floor or ground shadow, no text, no watermark.

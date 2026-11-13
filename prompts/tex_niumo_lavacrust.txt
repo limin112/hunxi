@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: seamless tileable PBR base-color texture for the surface of a game lava river
+Primary request: top-down orthographic photo-texture of black cooled lava crust, designed to tile seamlessly on all four edges
+Subject: black solidified lava crust broken into irregular plates (rough slabs and some ropy folds), separated by thin cracks that glow dull orange-red from the molten lava beneath; the glow stays inside the thin cracks, the plates themselves are dark and matte with a little grey ash; an even network of cracks across the whole image.
+Style/medium: photoreal material scan.
+Lighting/mood: perfectly flat, even, shadowless lighting, no highlights, no vignette; the only light is the glow inside the cracks.
+Composition/framing: straight top-down, no perspective, the pattern fills the whole square image and continues across every edge so the texture tiles without visible seams; even detail density, no single dominant feature.
+Color palette: black and charcoal crust, dull ember red-orange in the cracks only; the glowing cracks cover less than a tenth of the image.
+Constraints: square image; no objects, no text, no watermark.

@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: key art / mood target for a dark fantasy boss arena
+Primary request: cinematic wide shot down the central aisle of a vast ruined gothic cathedral, perfectly symmetrical one-point perspective
+Subject: at the far end, a giant woman in white and gold robes kneels in prayer with her back to the camera, seven swords embedded in her upper back and fanned out like a halo, beneath an enormous glowing rose window. Along both sides of the aisle, knights encased in white candle wax kneel frozen in prayer, their metal face masks showing through the wax. In the foreground, a small medieval warrior in a dark hood, mail and a dented iron mask stands seen from behind, ankle-deep in still water.
+Scene/backdrop: towering gothic pillars, broken pews pushed to the sides, hundreds of candles; the floor is a sheet of still water mirroring the candles and the rose window.
+Lighting/mood: strong backlight from the rose window, volumetric god rays, drifting ash; sacred, silent and oppressive.
+Color palette: cold white and pale gold against deep shadow.
+Composition/framing: 16:9 landscape; symmetrical; the kneeling woman small and centered at the vanishing point; the warrior in the lower foreground.
+Constraints: no text, no watermark, no UI.

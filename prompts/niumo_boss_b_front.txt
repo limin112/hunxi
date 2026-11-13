@@ -1,0 +1,8 @@
+Use case: character concept sheet for 3D modeling (image-to-3D input)
+Asset type: full-body character, single front view
+Primary request: the same volcanic bull demon god as Image 1, redrawn standing upright in a relaxed A-pose (arms slightly away from the body, legs apart), facing the viewer, full body from horns to hooves visible, for 3D modeling
+Subject: keep Image 1's design: obsidian and black basalt skin split by glowing lava cracks, two enormous dark horns, a heavy iron ring through the nose, molten orange eyes, fragments of ancient rusted iron and bronze armor fused into the rock on shoulders, chest and forearms, a ragged loincloth of scorched plates above the knees, massive legs ending in cloven hooves; no chains, no smoke, no lava pouring off the body, nothing in the hands.
+Scene/backdrop: plain neutral light grey background, no environment.
+Lighting/mood: even, soft studio lighting for clear form, slight warm glow from the lava cracks.
+Composition/framing: portrait orientation; whole body centered; symmetrical pose.
+Constraints: original design; no text, no watermark.

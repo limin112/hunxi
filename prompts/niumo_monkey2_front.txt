@@ -1,0 +1,8 @@
+Use case: character concept sheet for 3D modeling (image-to-3D input)
+Asset type: full-body character, single front view
+Primary request: an original, imposing Monkey King warrior wearing the traditional battle regalia of the "Great Sage Equal to Heaven" described in the classic novel Journey to the West, standing tall and confident in a relaxed A-pose (arms slightly away from the body, legs apart), facing the viewer, full body from the feather tips to the boots visible
+Subject: golden fur, a long tail, broad shoulders and a powerful wiry build; his face is covered by a gilded metal mask forged in the shape of the Peking-opera Monkey King face design (red and gold heart-shaped pattern around fierce eyes); on his head a purple-gold phoenix-wing crown with two very long pheasant tail feathers sweeping up and back; a suit of golden interlocking chain-mail armor with an ornate gold breastplate and cloud-shaped gold shoulder guards; a short tiger-skin skirt over the armor; a long red battle cape flowing from the shoulders; lotus-silk cloud-stepping boots with upturned toes; heroic, regal and domineering presence.
+Scene/backdrop: plain neutral light grey background, no environment.
+Lighting/mood: even, soft studio lighting for clear form.
+Composition/framing: portrait orientation; whole body centered; empty hands, no weapon; symmetrical pose.
+Constraints: original design, clearly different from the characters of Black Myth: Wukong and from any existing video game; no text, no watermark.

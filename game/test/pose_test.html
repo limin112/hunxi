@@ -1,0 +1,77 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>pose test</title>
+<script type="importmap">{ "imports": { "three": "../node_modules/three/build/three.module.js", "three/addons/": "../node_modules/three/examples/jsm/" } }</script>
+<style>body{margin:0;background:#2b2b2b;color:#ccc;font:12px -apple-system,sans-serif} #lbl{position:absolute;left:0;top:0;width:100%;pointer-events:none}
+.l{position:absolute;color:#ddd;font-size:12px;padding:3px 6px;background:rgba(0,0,0,.35)}</style>
+</head><body><div id="lbl"></div>
+<script type="module">
+import * as THREE from 'three';
+import { loadCharacter, loadBlade } from '../src/assets.js';
+import { Actor } from '../src/actor.js';
+import { HEROINE, BOSS, HOLD_P, B_HOLD } from '../src/moves.js';
+
+const q = new URLSearchParams(location.search);
+const who = q.get('char') || 'heroine';
+const moveName = q.get('move') || '';
+const base = q.get('anim') || 'idle';
+const times = (q.get('times') || '0').split(',').map(Number);
+const views = (q.get('views') || 'front,q,side').split(',');
+const cw = +(q.get('cw') || 300), ch = +(q.get('ch') || 380);
+const debug = q.get('debug') !== '0';
+
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1);
+renderer.setSize(cw * views.length, ch * times.length);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.setScissorTest(true);
+document.body.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x2b2b2b);
+scene.add(new THREE.HemisphereLight(0xdfe6ff, 0x3a3228, 1.4));
+const sun = new THREE.DirectionalLight(0xffffff, 2.2); sun.position.set(3, 6, 4); scene.add(sun);
+const grid = new THREE.GridHelper(20, 20, 0x555555, 0x3a3a3a); scene.add(grid);
+
+const H = who === 'boss' ? 5.1 : 1.7;
+const url = who === 'boss' ? (q.get('p2') ? '../assets/models/boss_p2.glb' : '../assets/models/boss_p1.glb') : '../assets/models/heroine.glb';
+const char = await loadCharacter(url, { height: H });
+scene.add(char.root);
+const sword = await loadBlade(who === 'boss' ? '../assets/models/boss_sword.glb' : '../assets/models/player_sword.glb',
+  who === 'boss' ? { length: 3.9, gripFrac: 0.1 } : { length: 1.15, gripFrac: 0.13 });
+const actor = new Actor(char, { lib: who === 'boss' ? BOSS : HEROINE, hold: who === 'boss' ? B_HOLD : HOLD_P, sword, scene });
+actor.playBase(base, { fade: 0 });
+actor.update(0);
+
+// blade debug line
+const lineGeo = new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(), new THREE.Vector3()]);
+const line = new THREE.Line(lineGeo, new THREE.LineBasicMaterial({ color: 0xff3355, depthTest: false }));
+line.renderOrder = 10; if (debug) scene.add(line);
+
+const cam = new THREE.PerspectiveCamera(30, cw / ch, 0.05, 100);
+const VIEW = { front: 0, q: 35, side: 90, back: 180, qback: 145, left: -90 };
+const lbl = document.getElementById('lbl');
+times.forEach((t, row) => {
+  // deterministic state at time t
+  actor.mixer.setTime(0.35);
+  if (moveName) { actor.startMove(moveName); actor.move.t = t; }
+  actor.update(0);
+  if (actor.move) actor.move.t = t;
+  line.geometry.setFromPoints([actor.bladeBase, actor.bladeTip]);
+  views.forEach((v, col) => {
+    const ang = VIEW[v] * Math.PI / 180;
+    const dist = H * 2.35, tgt = new THREE.Vector3(0, H * 0.5, 0);
+    // character faces +Z; positive angle orbits toward the character's right (-X)
+    cam.position.set(-Math.sin(ang) * dist, H * 0.62, Math.cos(ang) * dist);
+    cam.lookAt(tgt);
+    const x = col * cw, y = (times.length - 1 - row) * ch;
+    renderer.setViewport(x, y, cw, ch); renderer.setScissor(x, y, cw, ch);
+    renderer.render(scene, cam);
+    const d = document.createElement('div'); d.className = 'l'; d.style.left = x + 'px'; d.style.top = row * ch + 'px';
+    d.textContent = `${moveName || base} t=${t} ${v}`; lbl.appendChild(d);
+  });
+});
+window.__info = { arm: actor.rig.armLen, leg: actor.rig.legLen, clips: Object.keys(char.clips), cleaned: char.mesh.userData.cleanedVertices,
+  speeds: Object.fromEntries(Object.keys(char.clips).map(n => [n, +actor.clipSpeed(n).toFixed(3)])) };
+window.__ready = true;
+</script></body></html>

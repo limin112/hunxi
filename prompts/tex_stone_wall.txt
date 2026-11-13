@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: seamless tileable PBR base-color texture for game walls and pillars
+Primary request: front-facing orthographic photo-texture of a weathered gothic cathedral ashlar wall, designed to tile seamlessly on all four edges
+Subject: pale grey-beige limestone blocks laid in regular horizontal courses, slightly irregular block lengths, worn edges, thin mortar joints, soot stains drifting upward, a few hairline cracks. No moss, no windows, no ornaments.
+Style/medium: photoreal material scan.
+Lighting/mood: perfectly flat, even, shadowless lighting (albedo only), no highlights, no vignette.
+Composition/framing: straight-on, no perspective, the courses run edge to edge and continue across every edge so the texture tiles without visible seams.
+Color palette: pale grey-beige stone, darker soot greys.
+Constraints: square image; no text, no watermark.

@@ -1,0 +1,11 @@
+Use case: identity-preserve
+Asset type: final character reference image for image-to-3D generation (Tripo3D) - souls-like game boss, front view
+Input images: Image 1 = the current front view of this character (keep its design, silhouette, A-pose, proportions, framing and background exactly)
+Primary request: the same character, aged by a thousand years of kneeling vigil in a candle-lit, flooded cathedral. Change only the surface condition and materials, not the design.
+Subject: keep every element of Image 1: the closed-eye metal face mask with gold tear lines, the close-fitting hood (no skin, no hair visible), the filigree breastplate and pauldrons, the robes split into long front and back panels with the legs visible between them, the fitted sleeves, gauntlets and greaves. Add: the white has yellowed to aged ivory; the gold is tarnished and darkened in the recesses; the silver is dull with fine scratches; thin hairline cracks run across the mask; old white candle wax has dripped and hardened over her shoulders, pauldrons and the top of the breastplate; the robe hems are frayed and stained ash-grey from water and soot.
+Pose: identical to Image 1 (symmetric A-pose, arms about 40 degrees from the body, hands open, legs straight and slightly apart, feet flat, head facing straight ahead).
+Composition/framing: identical to Image 1: orthographic-style front view, entire figure visible from head to feet with margin, centered, no perspective distortion. Portrait image.
+Lighting/mood: flat, even, diffuse studio lighting; no cast shadows, no rim light, no glow, no strong specular highlights.
+Color palette: aged ivory, tarnished pale gold, dull silver, ash grey at the hems.
+Scene/backdrop: plain uniform light grey background.
+Constraints: single character only; no weapons, no swords, no halo, no wings, no props, no floor or ground shadow, no text, no watermark.
